@@ -11,9 +11,9 @@
     <header>
         <nav class="navigation-menu container">
             <ul class="menu">
-                <li class="menu-item"><img src="./image/logo.svg" alt="logo" class="logo"></li>
-                <li class="menu-item">Акции</li>
-                <li class="menu-item">Бронированием</li>
+                <li class="menu-item"><a href="#" class="link-nav"><img src="./image/logo.svg" alt="logo" class="logo"></a></li>
+                <li class="menu-item"><a href="#" class="link-nav">Акции</a></li>
+                <li class="menu-item"><a href="#" class="link-nav">Бронирование</a></li>
                 <li class="menu-item"><input type="text" placeholder="найти" class="input-text"><button class="button button-menu">Поиск</button></li>
             </ul>
         </nav>
@@ -39,50 +39,50 @@
             <div class="reviews">
                 <h2 class="title">Отзывы</h2>
                 <div class="reviews-item">
-                    <p class="reviews-item-name"></p>
+                    <p class="reviews-item-name">Сергей</p>
                     <figure class="stars">
-                        <span class="star-active"></span>
-                        <span class="star-active"></span>
-                        <span class="star-active"></span>
-                        <span class="star-active"></span>
-                        <span class="star"></span>
+                        <img src="./image/star-active.png" alt="star" class="star">
+                        <img src="./image/star-active.png" alt="star" class="star">
+                        <img src="./image/star-active.png" alt="star" class="star">
+                        <img src="./image/star-active.png" alt="star" class="star">
+                        <img src="./image/star.png" alt="star" class="star">
                     </figure>
-                    <p class="reviews-item-text"></p>
+                    <p class="reviews-item-text">Когда другие агентства помашут вам платочком, "Турист-Pro" пойдет навстречу и решит ваши проблемы. 
+                        Индивидуальный подход, профессионализм и заинтересованность в каждом туристе.</p>
                 </div>
 
                 <div class="reviews-item">
-                    <p class="reviews-item-name"></p>
+                    <p class="reviews-item-name">Игрим</p>
                     <figure class="stars">
-                        <span class="star-active"></span>
-                        <span class="star-active"></span>
-                        <span class="star-active"></span>
-                        <span class="star-active"></span>
-                        <span class="star"></span>
+                        <img src="./image/star-active.png" alt="star" class="star">
+                        <img src="./image/star-active.png" alt="star" class="star">
+                        <img src="./image/star-active.png" alt="star" class="star">
+                        <img src="./image/star-active.png" alt="star" class="star">
+                        <img src="./image/star-active.png" alt="star" class="star">
                     </figure>
-                    <p class="reviews-item-text"></p>
+                    <p class="reviews-item-text">Моя лучшая поездка</p>
                 </div>
 
                 <div class="reviews-item">
-                    <p class="reviews-item-name"></p>
+                    <p class="reviews-item-name">Кейлет</p>
                     <figure class="stars">
-                        <span class="star-active"></span>
-                        <span class="star-active"></span>
-                        <span class="star-active"></span>
-                        <span class="star-active"></span>
-                        <span class="star"></span>
+                        <img src="./image/star-active.png" alt="star" class="star">
+                        <img src="./image/star-active.png" alt="star" class="star">
+                        <img src="./image/star-active.png" alt="star" class="star">
+                        <img src="./image/star-active.png" alt="star" class="star">
+                        <img src="./image/star.png" alt="star" class="star">
                     </figure>
-                    <p class="reviews-item-text"></p>
+                    <p class="reviews-item-text">Хорошая экскурсия и гид!</p>
                 </div>
-
             </div>
         </div>
 
-        <div class="container">
+        <div class="container reservation">
             <h2 class='title'>Как бронировать?</h2>
             <figure class='figure'>
-                    <span class="text">Найти путевку</span>
-                    <span class="text">Оплатить</span>
-                    <span class="text">Получить документы</span>
+                    <span class="text">Найти путевку</span><i class="right"></i>
+                    <span class="text">Оплатить</span><i class="right"></i>
+                    <span class="text">Получить документы</span><i class="right"></i>
                     <span class="text">Насладиться отдыхом</span>
             </figure>
         </div> 
@@ -91,72 +91,59 @@
             <h2 class='title'>Поиск</h2>
             <div class="form-find">
                 <ul class="list-find">
-                    <li class="list-find-item">Регион:
-                        <select class="select">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
+                    <li class="list-find-item">
+                        <span>Регион:</span>
+                        <select class="find select">
+                            <option value="1">Один</option>
+                            <option value="2">Два</option>
+                            <option value="3">Три</option>
+                            <option value="4">Четыре</option>
+                            <option value="5">Пять</option>
                         </select>
                     </li>
-                    <li class="list-find-item">Регион:
-                        <select class="select">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                        </select>
+                    <li class="list-find-item">
+                        <label>Введите дату: <input type="date" class="find data"></label>
                     </li>
-                    <li class="list-find-item">Количество участноков:
-                        <select class="select">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                        </select>
+                    <li class="list-find-item">
+                        <label>Введите количество: <input type="text" value="0" class="find value"></label>
                     </li>
                     <li class="list-find-item">Уровень подготовки:
                         <select class="select">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
+                            <option value="1">Низкий</option>
+                            <option value="2">Средний</option>
+                            <option value="3">Профессиональный</option>
                         </select>
                     </li>
-                    <li class="list-find-item"><button class="button button-find">Поиск</button></li>
                 </ul>
+                <button class="button button-find">Поиск</button>
             </div>
         </div>
 
-        <div class="discount slider container">
+        <div class="container">
             <h2 class="title">Акции</h2>
-            <div class="slider-item">
-                <img src="" alt="slider-image">
-                <h5 class="title-slider"></h5>
-                <p class="text-slider">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <span class="slider-mare">...</span>
-                </p>
+            <div class="discount slider ">
+                <div class="slider-item">
+                    <img src="./image/1.jpg" alt="slider-image"class="img">
+                    <p class="text-slider">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <span class="slider-mare">...</span>
+                    </p>
+                </div>
+    
+                <div class="slider-item">
+                    <img src="./image/2.jpg" alt="slider-image" class="img">
+                    <p class="text-slider">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <span class="slider-mare">...</span>
+                    </p>
+                </div>
+    
+                <div class="slider-item">
+                    <img src="./image/3.jpg" alt="slider-image" class="img">
+                    <p class="text-slider">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <span class="slider-mare">...</span>
+                    </p>
+                </div>
             </div>
-
-            <div class="slider-item">
-                <img src="" alt="slider-image">
-                <h5 class="title-slider"></h5>
-                <p class="text-slider">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <span class="slider-mare">...</span>
-                </p>
-            </div>
-
-            <div class="slider-item">
-                <img src="" alt="slider-image">
-                <h5 class="title-slider"></h5>
-                <p class="text-slider">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <span class="slider-mare">...</span>
-                </p>
-            </div>
+           
         </div>
 
         <div class="subscribe container">
@@ -167,13 +154,13 @@
     </main>
 
     <footer class="footer">
-        <div class="container">
+        <div class="">
             <span class="footer-text">Телефон “8 (800) 555-33-10”</span>
             <span class="footer-text">Обратная связь: почта</span>
             <img src="" alt="logo">
         </div>
 
-        <nav class="navigation container">
+        <nav class="navigation">
             <ul class="list-nav">
                 <li class="list-nav-item">Акции</li>
                 <li class="list-nav-item">Бронирование</li>
