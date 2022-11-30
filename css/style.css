@@ -33,7 +33,7 @@ a{
 }
 
 .navigation-menu{
-    min-height: 130px;
+    min-height: 120px;
     border-radius: 0px 0px 100px 100px;
     font-size: 1.5em;
     padding: 10px;
@@ -47,21 +47,37 @@ a{
 .menu{
     margin-top: 0;
     padding-top: 4%;
-    max-width: 75%;
     margin: auto;
 }
 
 .menu-item{
-    margin-right: 3%;
+    margin-right: 2%;
 }
 
-.input-text{
+.link-nav{
+    padding: 2px;
+}
+
+input{
     border-radius: 20px;
     font-size: inherit;
     text-align: center;
     font-family: inherit;
     outline: none;  
-    border-style: none;
+    border-style: none; 
+    color: var(--bg-color);
+    padding: 10px;
+}
+
+select{
+    border-radius: 20px;
+    font-size: inherit;
+    text-align: center;
+    font-family: inherit;
+    outline: none;  
+    color: var(--bg-color);
+    border-style: none;  
+    padding: 10px;
 }
 
 .button{
@@ -72,6 +88,18 @@ a{
     margin-left: 10px;
     padding: 10px;
     color: var(--border-color);
+}
+
+.button:hover{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+a:hover{
+    color: var(--border-color);
+    background-color: white;
+
+    border-radius: 10px;
 }
 
 .discrub{
@@ -175,7 +203,7 @@ i{
 }
 
 .list-find{
-    text-align: start;
+    text-align: center;
     padding-left: 10px;
 
 }
@@ -183,19 +211,14 @@ i{
 .list-find-item{
     padding-left: 3em;
     max-width: 400px;
-    
 }
 
-.find{
-    color: var(--border-color);
-}
 
 
 .button-find{
     margin-top: 2em;
     min-height: 100px;
     min-width: 100px;
-    background-color: var(--text-color);
 }
 
 .img{
@@ -206,7 +229,7 @@ i{
 }
 
 .slider-item{
-    margin-top: 2em;
+    margin-bottom: 2em;
     display: flex;
     gap: 2em;
 }
@@ -214,3 +237,24 @@ i{
 .text-slider{
     text-align: left;
 }
+
+.discount{
+    padding: 20px;
+}
+
+.email{
+    font-size: 1.5em;
+}
+
+.footer{
+    position: absolute;
+    width: 1160px;
+    border-radius: 100px 100px 0px 0px;
+    font-size: 1.5em;
+}
+
+.footer-list{
+    margin: 50px 275px;
+    padding: none;
+}
+

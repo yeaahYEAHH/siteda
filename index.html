@@ -11,9 +11,11 @@
     <header>
         <nav class="navigation-menu container">
             <ul class="menu">
-                <li class="menu-item"><a href="#" class="link-nav"><img src="./image/logo.svg" alt="logo" class="logo"></a></li>
+                <li class="menu-item"><img src="./image/logo.svg" alt="logo" class="logo"></li>
                 <li class="menu-item"><a href="#" class="link-nav">Акции</a></li>
                 <li class="menu-item"><a href="#" class="link-nav">Бронирование</a></li>
+                <li class="menu-item"><a href="#" class="link-nav">Зоны</a></li>
+                <li class="menu-item"><a href="#" class="link-nav">Результаты</a></li>
                 <li class="menu-item"><input type="text" placeholder="найти" class="input-text"><button class="button button-menu">Поиск</button></li>
             </ul>
         </nav>
@@ -147,27 +149,25 @@
         </div>
 
         <div class="subscribe container">
-            <label for="email">Введите почту</label>
-            <input type="email" id="email" pattern=".+@globex\.com" size="30" required>
+            <h2 class="title">Подписаться</h2>
+            <label class="email">Введите почту:</label>
+            <input type="email" pattern=".+@globex\.com" size="30" required>
             <button class="button subscribe-btn">Подписаться</button>
         </div>
     </main>
 
-    <footer class="footer">
-        <div class="">
-            <span class="footer-text">Телефон “8 (800) 555-33-10”</span>
-            <span class="footer-text">Обратная связь: почта</span>
-            <img src="" alt="logo">
-        </div>
-
-        <nav class="navigation">
-            <ul class="list-nav">
-                <li class="list-nav-item">Акции</li>
-                <li class="list-nav-item">Бронирование</li>
-                <li class="list-nav-item">item</li>
-                <li class="list-nav-item">item</li>
+    <footer class="container footer">
+        <div class="footer-content">
+            <p class="footer-text">Телефон “8 (800) 555-33-10”</p>
+            <p class="footer-text">Обратная связь:</p>
+            <ul class="footer-list">
+                <li class="menu-item"><a href="#" class="link-nav">Акции</a></li>
+                <li class="menu-item"><a href="#" class="link-nav">Бронирование</a></li>
+                <li class="menu-item"><a href="#" class="link-nav">Результат</a></li>
+                <li class="menu-item"><a href="#" class="link-nav">Посещения</a></li>
             </ul>
-        </nav>
+            <img src="./image/logo.svg" alt="logo">
+        </div>
     </footer>
 </body>
 </html>
