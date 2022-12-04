@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Турист-про</title>
+    <link rel="shortcut icon" href="./image/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/booking.css">
+</head>
+<body>
+    <header>
+        <nav class="navigation-menu container">
+            <ul class="menu">
+                <li class="menu-item"><a href="./index.html"><img src="./image/logo.svg" alt="logo" class="logo"></a></li>
+                <li class="menu-item"><a href="./index.html#1" class="link-nav">Акции</a></li>
+                <li class="menu-item"><a href="./booking.html" class="link-nav">Бронирование</a></li>
+                <li class="menu-item"><a href="./seat.html" class="link-nav">Зоны</a></li>
+                <li class="menu-item"><a href="./search.html" class="link-nav">Результаты</a></li>
+                <li class="menu-item"><input type="text" placeholder="найти" class="input-text"><button class="button-menu">Поиск</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="hero">
+        <div class="container route">
+            <p class="route-name">Имя: <input type="text" class="name" value="A1"></p>
+
+            <div class="region">
+                <label class="region-name">Регион:</label>
+                <select class="region-select">
+                    <option value="1">Африка</option>
+                    <option value="2">Алания(Турция)</option>
+                    <option value="3">Белек(Турция)</option>
+                    <option value="4">Северный Кавказ</option>
+                    <option value="5">Сахалин и Курильские ост.(РФ)</option>
+                    <option value="6">Архангельская обл.(РФ)</option>
+                </select>
+            </div>
+
+            <div class="level">
+                <label class="level-name">Сложность:</label>
+                <select class="level-select">
+                    <option value="1">Низкий</option>
+                    <option value="2">Средний</option>
+                    <option value="3">Профессиональный</option>
+                </select>
+            </div>
+
+            <p class="data">Дата: <input type="date" class="data-input"></p>
+
+            <p class="value-zone">Кол-во человек: <input type="text" class="value-zone-text"></p>
+
+            <div class="additional">
+                <ul class="additional-list">
+                    <li class="additional-list-item">Услуги проводника:<input type="checkbox" name="" id="checkbox"></li>
+                    <li class="additional-list-item">Услуги оренды туристического оборудования:<input type="checkbox" name="" id="checkbox"></li>
+                    <li class="additional-list-item">Услуги фотографа/видеооператора:<input type="checkbox" name="" id="checkbox"></li>
+                    <li class="additional-list-item">Страхование от несчастных случаев:<input type="checkbox" name="" id="checkbox"></li>
+                </ul>
+            </div>
+
+            <p class="comment-text">Комментарий:<input type="text" class="comment"></p>
+    
+            <p class="entry-email-text">Введите свою почту:<input type="email"  pattern=".+@globex\.com"  size="30" required class="email"></p>
+
+
+            <div class="cost">
+                <p class="cost-text">Стоимость: <span class="cost-value">12.000 руб</span></p>
+                <button class="cost-btn">Оформить</button>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="container footer">
+        <div class="footer-content">
+            <p class="footer-text">Телефон “8 (800) 555-33-10”</p>
+            <p class="footer-text">Обратная связь:</p>
+            <ul class="footer-list">
+                <li class="menu-item"><a href="#1" class="link-nav">Акции</a></li>
+                <li class="menu-item"><a href="./booking.html" class="link-nav">Бронирование</a></li>
+                <li class="menu-item"><a href="./seat.html" class="link-nav">Зоны</a></li>
+                <li class="menu-item"><a href="./search.html" class="link-nav">Результат</a></li>
+            </ul>
+            <a href="./index.html"><img src="./image/logo.svg" alt="logo" class="logo-footer"></a>
+        </div>
+    </footer>
+</body>

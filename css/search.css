@@ -1,0 +1,63 @@
+.btn-like{
+    background-image: url(../image/heart1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    background-color: inherit;
+    border-radius: 0px;
+    transition: .3s;
+    margin: 30px;
+}
+
+p{
+    font-size: 19px;
+}
+
+.btn-like:hover{
+    background-image: url(../image/heart2.png);
+    background-color: inherit;
+}
+
+.routes{
+    padding: 100px;
+}
+
+.route{
+    margin-top: 50px;
+}
+
+.routes-title{
+    margin-top: -50px;
+}
+
+.route-content{
+    display: flex;
+    gap: 3em;
+}
+
+.routes-discrub{
+    max-width: 500px;
+}
+
+.rigth p{
+    text-align: left;
+}
+
+.left p{
+    text-align: right;
+}
+
+.image-routes{
+    width: 600px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.route-line{
+    margin-top: 50px;
+}
+
+.footer-text{
+    font-size: 24px;
+}

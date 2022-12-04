@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Сайт</title>
+    <title>Турист-про</title>
+    <link rel="shortcut icon" href="./image/logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -12,20 +13,20 @@
         <nav class="navigation-menu container">
             <ul class="menu">
                 <li class="menu-item"><img src="./image/logo.svg" alt="logo" class="logo"></li>
-                <li class="menu-item"><a href="#" class="link-nav">Акции</a></li>
-                <li class="menu-item"><a href="#" class="link-nav">Бронирование</a></li>
-                <li class="menu-item"><a href="#" class="link-nav">Зоны</a></li>
-                <li class="menu-item"><a href="#" class="link-nav">Результаты</a></li>
-                <li class="menu-item"><input type="text" placeholder="найти" class="input-text"><button class="button button-menu">Поиск</button></li>
+                <li class="menu-item"><a href="#1" class="link-nav">Акции</a></li>
+                <li class="menu-item"><a href="./booking.html" class="link-nav">Бронирование</a></li>
+                <li class="menu-item"><a href="./seat.html" class="link-nav">Зоны</a></li>
+                <li class="menu-item"><a href="./search.html" class="link-nav">Результаты</a></li>
+                <li class="menu-item"><input type="text" placeholder="найти" class="input-text"><button class="button-menu">Поиск</button></li>
             </ul>
         </nav>
     </header>
 
-    <main class="hero">
+    <main>
         <div class="container">
             <div class="discrub">
                 <h1 class="title">Турист-Pro</h1>
-                <h3 class="discrib-title">Главная цель компании – сделать любой поход удобным, комфортным и безопасным.</h3>
+                <h2 class="discrib-title">Исполнить мечты просто!</h2>
                 <div class="block">
                     <p class="discrub-text">Клиенты компании нашей имеют возможность заказать
                         организацию туристического похода по одному из предоставленных маршрутов.
@@ -96,11 +97,12 @@
                     <li class="list-find-item">
                         <span>Регион:</span>
                         <select class="find select">
-                            <option value="1">Один</option>
-                            <option value="2">Два</option>
-                            <option value="3">Три</option>
-                            <option value="4">Четыре</option>
-                            <option value="5">Пять</option>
+                            <option value="1">Африка</option>
+                            <option value="2">Алания(Турция)</option>
+                            <option value="3">Белек(Турция)</option>
+                            <option value="4">Северный Кавказ</option>
+                            <option value="5">Сахалин и Курильские ост.(РФ)</option>
+                            <option value="6">Архангельская обл.(РФ)</option>
                         </select>
                     </li>
                     <li class="list-find-item">
@@ -117,31 +119,31 @@
                         </select>
                     </li>
                 </ul>
-                <button class="button button-find">Поиск</button>
+                <button class="button-find"><a href="./search.html" target="_blank" rel="noopener noreferrer">Поиск</a></button>
             </div>
         </div>
 
         <div class="container">
-            <h2 class="title">Акции</h2>
+            <h2 class="title" id="1">Акции</h2>
             <div class="discount slider ">
                 <div class="slider-item">
                     <img src="./image/1.jpg" alt="slider-image"class="img">
                     <p class="text-slider">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <span class="slider-mare">...</span>
+                    Ut enim ad minim veniam, quis <span class="slider-mare">exercitation ullamco laboris nisi ut aliquip...</span>
                     </p>
                 </div>
     
                 <div class="slider-item">
                     <img src="./image/2.jpg" alt="slider-image" class="img">
                     <p class="text-slider">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <span class="slider-mare">...</span>
+                    Ut enim ad minim veniam, quis nostrud <span class="slider-mare">exercitation ullamco laboris nisi ut aliquip...</span>
                     </p>
                 </div>
     
                 <div class="slider-item">
                     <img src="./image/3.jpg" alt="slider-image" class="img">
                     <p class="text-slider">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <span class="slider-mare">...</span>
+                    Ut enim ad minim veniam, quis nostrud  <span class="slider-mare">exercitation ullamco laboris nisi ut aliquip...</span>
                     </p>
                 </div>
             </div>
@@ -152,7 +154,7 @@
             <h2 class="title">Подписаться</h2>
             <label class="email">Введите почту:</label>
             <input type="email" pattern=".+@globex\.com" size="30" required>
-            <button class="button subscribe-btn">Подписаться</button>
+            <button class="subscribe-btn">Подписаться</button>
         </div>
     </main>
 
@@ -161,12 +163,12 @@
             <p class="footer-text">Телефон “8 (800) 555-33-10”</p>
             <p class="footer-text">Обратная связь:</p>
             <ul class="footer-list">
-                <li class="menu-item"><a href="#" class="link-nav">Акции</a></li>
-                <li class="menu-item"><a href="#" class="link-nav">Бронирование</a></li>
-                <li class="menu-item"><a href="#" class="link-nav">Результат</a></li>
-                <li class="menu-item"><a href="#" class="link-nav">Посещения</a></li>
+                <li class="menu-item"><a href="#1" class="link-nav">Акции</a></li>
+                <li class="menu-item"><a href="./booking.html" class="link-nav">Бронирование</a></li>
+                <li class="menu-item"><a href="./search.html" class="link-nav">Результат</a></li>
+                <li class="menu-item"><a href="./seat.html" class="link-nav">Зоны</a></li>
             </ul>
-            <img src="./image/logo.svg" alt="logo">
+            <a href="./index.html"><img src="./image/logo.svg" alt="logo" class="logo-footer"></a>
         </div>
     </footer>
 </body>

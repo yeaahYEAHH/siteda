@@ -1,0 +1,139 @@
+.additional-list{
+    display: block;
+}
+
+.container{
+    font-size: 19px;
+}
+
+.navigation-menu{
+    font-size: 1.5em;
+}
+
+.footer{
+    margin-top: 5%;
+    font-size: 1.5em;   
+}
+
+.hero{
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../image/png2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    margin-left: -100px;
+    width: 1230px;
+    height: 1256px;
+    background-position: center;
+    border-radius: 10%;
+}
+
+
+
+.route{
+    padding: 4em;
+    width: 1067px;
+}
+
+.region , .route-name , .level , .data , .value-zone, .comment-text, .entry-email-text{
+    text-align: left;
+    max-width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+
+.data, .route-name, .value-zone, .comment, .email{
+    height: 48px;
+}
+
+.level-select{
+    margin-left: 65px;
+}
+
+.region-select{
+    margin-left: 50px;
+}
+
+.region-select, .level-select, .value-zone-text, .data-input, .name, .email, .comment, .cost-value{
+    font-weight: 600;
+    padding: 10px;
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    border-radius: 10px;
+}
+
+#route-name{
+    margin-left: 134px;
+}
+
+#data-value{
+    margin-left: 70px;
+}
+
+#value-zone{
+    margin-left: 5px;
+}
+
+input{
+    border-radius: 10px;
+}
+
+.additional{
+    text-align: left;
+    max-width: 573px;
+    margin: auto;
+}
+
+.additional-list{
+    padding-left: 20px;
+}
+
+.additional-list-item{
+    margin-bottom: 40px;
+}
+
+#checkbox{
+    width: 100px;
+}
+
+.cost{
+    margin-top: 30px;
+}
+
+.cost-btn{
+    margin-top: 15px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.cost-btn:hover{
+    padding: 20px;
+}
+
+.data-input{
+    margin-left: 156px;
+}
+
+.name{
+    margin-left: 200px;
+    width: 50px;
+}
+
+.value-zone-text{
+    margin-left: 85px;
+    width: 100px;
+}
+
+.comment{
+    text-align: left;
+    font-size: 16px;
+    margin-left: 10px;
+    height: 100px;
+    width: 360px;
+}
+
+.email{
+    margin-left: 10px;
+    width: 250px;
+    height: 28px;
+}
