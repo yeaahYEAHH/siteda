@@ -1,0 +1,31 @@
+.list-check{
+    font-weight: 600px;
+    font-size: 1.5em;
+}
+
+.aga{
+    display: flex;
+}
+
+.image-route{
+    max-width: 700px;
+    max-height: 700px;
+    border-radius: 10px;
+}
+
+.list-check{
+    display: block;
+}
+
+.list-check-item{
+    padding-top: 60px;
+}
+
+.choose{
+    margin-left: 20px;
+}
+
+.btn-choose:hover{
+    background-color: white;
+    padding: 20px;
+}
